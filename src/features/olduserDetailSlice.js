@@ -21,7 +21,7 @@ export const createUser = createAsyncThunk(
       return result;
     } catch (error) {
       return rejectWithValue(error);
-    }
+    } 
   }
 );
 

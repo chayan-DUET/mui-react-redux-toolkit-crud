@@ -7,5 +7,5 @@ const store = configureStore({
   reducer: {
     appdata: olduserDetail,
   },
-});
+}); 
 export default store;
