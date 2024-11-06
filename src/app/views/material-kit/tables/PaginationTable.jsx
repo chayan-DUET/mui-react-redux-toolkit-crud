@@ -145,7 +145,7 @@ export default function PaginationTable() {
             <TableCell align="left">Name</TableCell>
             <TableCell align="center">Email</TableCell>
             <TableCell align="center">Age</TableCell>
-            <TableCell align="center">Status</TableCell>
+            <TableCell align="center">Gender</TableCell>
             <TableCell align="center">Amount</TableCell>
             <TableCell align="right">Action</TableCell>
           </TableRow>
