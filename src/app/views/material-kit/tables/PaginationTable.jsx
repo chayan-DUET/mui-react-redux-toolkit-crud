@@ -143,8 +143,8 @@ export default function PaginationTable() {
         <TableHead>
           <TableRow>
             <TableCell align="left">Name</TableCell>
-            <TableCell align="center">Company</TableCell>
-            <TableCell align="center">Start Date</TableCell>
+            <TableCell align="center">Email</TableCell>
+            <TableCell align="center">Age</TableCell>
             <TableCell align="center">Status</TableCell>
             <TableCell align="center">Amount</TableCell>
             <TableCell align="right">Action</TableCell>
@@ -155,11 +155,7 @@ export default function PaginationTable() {
             .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
             .map((subscriber, index) => (
               <TableRow key={index}>
-                {/*  <TableCell align="left">{subscriber.name}</TableCell>
-                <TableCell align="center">{subscriber.company}</TableCell>
-                <TableCell align="center">{subscriber.date}</TableCell>
-                <TableCell align="center">{subscriber.status}</TableCell>
-                <TableCell align="center">${subscriber.amount}</TableCell> */}
+                
                 <TableCell align="left">{subscriber.name}</TableCell>
                 <TableCell align="center">{subscriber.email}</TableCell>
                 <TableCell align="center">{subscriber.age}</TableCell>

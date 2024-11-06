@@ -46,7 +46,7 @@ export default function AppChayan() {
       <Box className="breadcrumb">
         <Breadcrumb routeSegments={[{ name: "Material", path: "/material" }, { name: "Table" }]} />
       </Box>
-      <SimpleCard title="Pagination Table hlw dear Chayan2 how r u with nice MUI">
+      <SimpleCard title="Pagination Table hlw dear Chayan how r u with nice MUI">
         <PaginationTable />
       </SimpleCard>
     </Container>
